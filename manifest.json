@@ -1,8 +1,12 @@
 {
     "name" : "Better Wikipedia for high resolution screens",
     "version": "0.0.1",
+    "icons": { 
+        "16": "icon16.png",
+        "48": "icon48.png",
+       "128": "icon128.png" },
     "manifest_version": 2,
-    "description" : "This chrome extension makes articles on Wikipedia better readable on high resolution screens by setting a maximum width to the article. Wikipedia's layout is not optimized for the high resolution screens of today and article lines contain much more characters per row for the optimal line lenght for readability.",
+    "description" : "Make articles on Wikipedia easier readable by having an optimal line length on high resolution and ultrawide screens.",
     "content_scripts" : [
         {
             "css": ["styles.css"],
